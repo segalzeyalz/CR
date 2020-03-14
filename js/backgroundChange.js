@@ -10,7 +10,7 @@ export function setBgGreet() {
   } else if (hour < 18) {
     // Afternoon
     document.getElementById('header').style.backgroundImage =
-      "url('../img/afternoon.jpg')";
+      "url('../img/night.jpg')";
   } else {
     // Evening
     document.getElementById('header').style.backgroundImage =
