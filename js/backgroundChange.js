@@ -1,5 +1,5 @@
 export function setBgGreet() {
-  let today = new Date(),
+  const today = new Date(),
     hour = today.getHours();
 
   if (hour < 12) {
