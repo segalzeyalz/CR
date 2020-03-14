@@ -70,12 +70,17 @@ html {
   margin-bottom: 0;
   line-height: 24px;
 }
+@keyframes glow {
+  to {
+    text-shadow: 0 0 10px rgb(255, 253, 108);
+  }
+}
 #timer {
   font-size: 2em;
   font-weight: 700;
   color: white;
-
   text-align: center;
+  animation: glow 1.5s infinite alternate;
 }
 #timer div {
   display: inline-block;
